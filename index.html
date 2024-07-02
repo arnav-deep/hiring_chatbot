@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Window</title>
+    <style>
+        #chatWindow {
+            height: 60vh;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .message {
+            margin: 5px 0;
+            padding: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .user-message {
+            background-color: #e9e9ff;
+            text-align: right;
+        }
+
+        .api-response {
+            background-color: #e2ffe9;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="chatWindow"></div>
+    <input type="text" id="userInput" placeholder="Type a message...">
+    <button onclick="sendMessage()">Send</button>
+
+    <script>
+        async function sendMessage() {
+            const inputField = document.getElementById('userInput');
+            const chatWindow = document.getElementById('chatWindow');
+            const userText = inputField.value;
+
+            inputField.disabled = true;
+            document.querySelector('button').disabled = true;
+
+            // Display user message in chat window
+            const userMessageDiv = document.createElement('div');
+            userMessageDiv.classList.add('message', 'user-message');
+            userMessageDiv.textContent = userText;
+            chatWindow.appendChild(userMessageDiv);
+
+            const chatMessages = document.querySelectorAll('#chatWindow .message');
+            const chatHistory = Array.from(chatMessages).map(msg => {
+                return { content: msg.textContent, role: msg.classList.contains('user-message') ? 'user' : 'assistant' };
+            });
+
+            try {
+
+                const response = await fetch('http://localhost:8000/query', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    // Include both the new message and the chat history in the request
+                    body: JSON.stringify(chatHistory),
+                });
+
+                const data = await response.json();
+                // Display API response in chat window
+                const apiResponseDiv = document.createElement('div');
+                apiResponseDiv.classList.add('message', 'api-response');
+                apiResponseDiv.textContent = data[data.length - 1].content;
+                chatWindow.appendChild(apiResponseDiv);
+
+                inputField.value = '';
+                inputField.disabled = false;
+                document.querySelector('button').disabled = false;
+            } catch (error) {
+                console.error('Failed to send message to API');
+                // disable the input field and send button
+                inputField.disabled = true;
+                document.querySelector('button').disabled = true;
+                // ask the user to refresh the page
+                const errorMessageDiv = document.createElement('div');
+                errorMessageDiv.classList.add('message', 'api-response');
+                errorMessageDiv.textContent = 'Failed to send message to API. Please refresh the page. Error: ' + error.message;
+                chatWindow.appendChild(errorMessageDiv);
+            }
+
+            // Scroll to the bottom of the chat window
+            chatWindow.scrollTop = chatWindow.scrollHeight;
+        }
+    </script>
+</body>
+
+</html>
