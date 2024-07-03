@@ -4,6 +4,15 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from ai_handler import text_handler
 from models import MercorUsers, Message
+import traceback
+import logging
+
+logging.basicConfig(
+    filename="app.log",
+    filemode="a",
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    level=logging.INFO,
+)
 
 app = FastAPI()
 
@@ -29,4 +38,7 @@ async def read_item(messages: List[Message]):
             return response
         raise HTTPException(status_code=404, detail="Item not found")
     except Exception as e:
+        # add traceback and error logs to log file
+        logging.error(traceback.format_exc())
+        logging.error(str(e))
         raise HTTPException(status_code=500, detail=str(e))
