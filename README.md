@@ -1,6 +1,6 @@
 # Installation
 
-Inside a Python virtualvenv, install the requirements using `poetry install`.
+Inside a Python virtualvenv, install the requirements using `poetry install` or `pip install -r requirements.txt`.
 
 # Running the app
 
