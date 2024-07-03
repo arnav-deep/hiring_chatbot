@@ -5,14 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from ai_handler import text_handler
 from models import MercorUsers, Message
 import traceback
-import logging
-
-logging.basicConfig(
-    filename="app.log",
-    filemode="a",
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    level=logging.INFO,
-)
+from logger import logging
 
 app = FastAPI()
 

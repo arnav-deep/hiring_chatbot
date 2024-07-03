@@ -2,6 +2,7 @@ from typing import Dict, List
 from openai import OpenAI
 
 from handler import SearchQuery, run_query
+from logger import logging
 
 
 def text_handler(messages: List[Dict[str, str]]):
@@ -35,6 +36,7 @@ def text_handler(messages: List[Dict[str, str]]):
     if "Search Query:" in messages[-1]["content"]:
         for line in messages[-1]["content"].split("\n"):
             if "search query:" in line.lower():
+                logging.info(f"Search Query: {line.split(':')[1].strip()}")
                 search_query = line.split(":")[1].strip()
                 search_query = SearchQuery(
                     is_full_time="full" in search_query.lower(),
