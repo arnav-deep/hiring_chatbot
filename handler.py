@@ -22,20 +22,19 @@ def run_query(search_query: SearchQuery):
         )
 
         if search_query.is_full_time is not None:
-            sql += f" fullTime = {bool(search_query.is_full_time)} AND"
+            sql += f" mu.fullTime = {bool(search_query.is_full_time)} AND"
         if search_query.is_part_time is not None:
-            sql += f" partTime = {bool(search_query.is_part_time)} AND"
+            sql += f" mu.partTime = {bool(search_query.is_part_time)} AND"
         if search_query.is_full_time and search_query.full_time_salary is not None:
-            sql += f" fullTimeSalary <= {search_query.full_time_salary} AND"
+            sql += f" mu.fullTimeSalary <= {search_query.full_time_salary} AND"
         if search_query.is_part_time and search_query.part_time_salary is not None:
-            sql += f" partTimeSalary <= {search_query.part_time_salary} AND"
+            sql += f" mu.partTimeSalary <= {search_query.part_time_salary} AND"
 
         if search_query.skills:
-            sql += " userId IN (SELECT userId FROM MercorUserSkills WHERE skillId IN (SELECT skillId FROM Skills WHERE"
+            sql += " s.skillValue IN ("
             for skill in search_query.skills:
-                sql += f" skillValue = '{skill.lower()}' OR"
-            sql = sql[:-3]
-            sql += ")) AND"
+                sql += f"'{skill.lower().strip()}',"
+            sql = sql[:-1] + ") AND"
 
         sql = sql[:-4]
         cursor.execute(sql)

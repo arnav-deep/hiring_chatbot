@@ -20,7 +20,9 @@ app.add_middleware(
 async def read_item(messages: List[Message]):
     try:
         # messages from List[Message] to List[Dict[str, str]]
-        messages = [message.model_dump() for message in messages]
+        messages = [
+            message.model_dump() for message in messages if message.role != "system"
+        ]
         response = text_handler(messages)
 
         if response:
