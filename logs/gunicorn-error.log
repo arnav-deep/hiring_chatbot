@@ -1,0 +1,264 @@
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 13: cd: /home/arnavd4/hiring-chatbot: No such file or directory
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 14: /home/arnavd4/hiring-chatbot/.venv/bin/activate: No such file or directory
+
+Error: class uri 'uvicorn.workers.UvicornWorker' invalid or not found: 
+
+[Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 99, in load_class
+    mod = importlib.import_module('.'.join(components))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1128, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'uvicorn'
+]
+
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 13: cd: /home/arnavd4/hiring-chatbot: No such file or directory
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 14: /home/arnavd4/hiring-chatbot/.venv/bin/activate: No such file or directory
+
+Error: class uri 'uvicorn.workers.UvicornWorker' invalid or not found: 
+
+[Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 99, in load_class
+    mod = importlib.import_module('.'.join(components))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1128, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'uvicorn'
+]
+
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 13: cd: /home/arnavd4/hiring-chatbot: No such file or directory
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 14: /home/arnavd4/hiring-chatbot/.venv/bin/activate: No such file or directory
+
+Error: class uri 'uvicorn.workers.UvicornWorker' invalid or not found: 
+
+[Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 99, in load_class
+    mod = importlib.import_module('.'.join(components))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1128, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'uvicorn'
+]
+
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 13: cd: /home/arnavd4/hiring-chatbot: No such file or directory
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 14: /home/arnavd4/hiring-chatbot/.venv/bin/activate: No such file or directory
+
+Error: class uri 'uvicorn.workers.UvicornWorker' invalid or not found: 
+
+[Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 99, in load_class
+    mod = importlib.import_module('.'.join(components))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1128, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'uvicorn'
+]
+
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 13: cd: /home/arnavd4/hiring-chatbot: No such file or directory
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 14: /home/arnavd4/hiring-chatbot/.venv/bin/activate: No such file or directory
+
+Error: class uri 'uvicorn.workers.UvicornWorker' invalid or not found: 
+
+[Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 99, in load_class
+    mod = importlib.import_module('.'.join(components))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1128, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'uvicorn'
+]
+
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 13: cd: /home/arnavd4/hiring-chatbot: No such file or directory
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 14: /home/arnavd4/hiring-chatbot/.venv/bin/activate: No such file or directory
+
+Error: class uri 'uvicorn.workers.UvicornWorker' invalid or not found: 
+
+[Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 99, in load_class
+    mod = importlib.import_module('.'.join(components))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1128, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'uvicorn'
+]
+
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 13: cd: /home/arnavd4/hiring-chatbot: No such file or directory
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 14: /home/arnavd4/hiring-chatbot/.venv/bin/activate: No such file or directory
+
+Error: class uri 'uvicorn.workers.UvicornWorker' invalid or not found: 
+
+[Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 99, in load_class
+    mod = importlib.import_module('.'.join(components))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1128, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'uvicorn'
+]
+
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 13: cd: /home/arnavd4/hiring-chatbot: No such file or directory
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 14: /home/arnavd4/hiring-chatbot/.venv/bin/activate: No such file or directory
+
+Error: class uri 'uvicorn.workers.UvicornWorker' invalid or not found: 
+
+[Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 99, in load_class
+    mod = importlib.import_module('.'.join(components))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1128, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'uvicorn'
+]
+
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 13: cd: /home/arnavd4/hiring-chatbot: No such file or directory
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 14: /home/arnavd4/hiring-chatbot/.venv/bin/activate: No such file or directory
+
+Error: class uri 'uvicorn.workers.UvicornWorker' invalid or not found: 
+
+[Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 99, in load_class
+    mod = importlib.import_module('.'.join(components))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1128, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'uvicorn'
+]
+
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 13: cd: /home/arnavd4/hiring-chatbot: No such file or directory
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 14: /home/arnavd4/hiring-chatbot/.venv/bin/activate: No such file or directory
+
+Error: class uri 'uvicorn.workers.UvicornWorker' invalid or not found: 
+
+[Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 99, in load_class
+    mod = importlib.import_module('.'.join(components))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1128, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'uvicorn'
+]
+
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 13: cd: /home/arnavd4/hiring-chatbot: No such file or directory
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 14: /home/arnavd4/hiring-chatbot/.venv/bin/activate: No such file or directory
+
+Error: class uri 'uvicorn.workers.UvicornWorker' invalid or not found: 
+
+[Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 99, in load_class
+    mod = importlib.import_module('.'.join(components))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1128, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'uvicorn'
+]
+
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 13: cd: /home/arnavd4/hiring-chatbot: No such file or directory
+/home/arnavd4/hiring_chatbot/gunicorn_start: line 14: /home/arnavd4/hiring-chatbot/.venv/bin/activate: No such file or directory
+
+Error: class uri 'uvicorn.workers.UvicornWorker' invalid or not found: 
+
+[Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 99, in load_class
+    mod = importlib.import_module('.'.join(components))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1128, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'uvicorn'
+]
+

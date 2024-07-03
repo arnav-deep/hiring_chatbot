@@ -1,0 +1,47 @@
+2024-07-03 13:23:17,582 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 13:25:09,830 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 13:30:25,773 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 13:31:26,546 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 13:32:52,498 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 13:33:44,331 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 13:33:44,333 - root - ERROR - Traceback (most recent call last):
+  File "/home/arnavd4/hiring_chatbot/app.py", line 35, in read_item
+    response = text_handler(messages)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/arnavd4/hiring_chatbot/ai_handler.py", line 43, in text_handler
+    filter(str.isdigit, search_query.split("|")[1])
+                        ~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2024-07-03 13:33:44,333 - root - ERROR - list index out of range
+2024-07-03 13:39:59,710 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 13:40:29,004 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 13:40:49,599 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 13:42:22,163 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 13:42:22,164 - root - INFO - Search Query: 
+2024-07-03 13:42:22,164 - root - ERROR - Traceback (most recent call last):
+  File "/home/arnavd4/hiring_chatbot/app.py", line 28, in read_item
+    response = text_handler(messages)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/arnavd4/hiring_chatbot/ai_handler.py", line 45, in text_handler
+    filter(str.isdigit, search_query.split("|")[1])
+                        ~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2024-07-03 13:42:22,165 - root - ERROR - list index out of range
+2024-07-03 13:44:41,301 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 13:44:46,570 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 13:44:53,948 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 13:45:00,167 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 13:45:00,168 - root - INFO - Search Query: fulltime|3000|python
+2024-07-03 13:45:53,441 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 13:45:58,646 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 13:49:09,318 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 13:49:26,087 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 18:55:48,090 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 18:56:21,130 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 18:56:33,752 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 18:56:54,131 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 18:57:02,241 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 18:57:22,217 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-03 18:57:22,218 - root - INFO - Search Query: fulltime|20LPA|AWS,django
