@@ -21,7 +21,7 @@ def text_handler(messages: List[Dict[str, str]]):
         "reply only in the format below and no other words: "
         "Search Query: {employmenttype}|{budget}|{skills}"
         "Example: employmenttype: fulltime or parttime"
-        "Example: budget: 2000, must be a number only."
+        "Example: budget: 2000, must be a number only, no extra words or characters."
         "Example: skills: python,java,c++"
     )
 
@@ -39,8 +39,12 @@ def text_handler(messages: List[Dict[str, str]]):
                 search_query = SearchQuery(
                     is_full_time="full" in search_query.lower(),
                     is_part_time="part" in search_query.lower(),
-                    full_time_salary=search_query.split("|")[1],
-                    part_time_salary=search_query.split("|")[1],
+                    full_time_salary="".join(
+                        filter(str.isdigit, search_query.split("|")[1])
+                    ),
+                    part_time_salary="".join(
+                        filter(str.isdigit, search_query.split("|")[1])
+                    ),
                     skills=[
                         skill.strip().lower()
                         for skill in search_query.split("|")[2].split(",")
