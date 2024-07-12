@@ -33,6 +33,8 @@ def text_handler(messages: List[Dict[str, str]]):
         )
     messages = ai_conversations(messages)
 
+    logging.info(f"Reply: {messages[-1]['content']}")
+
     if "Search Query:" in messages[-1]["content"]:
         for line in messages[-1]["content"].split("\n"):
             if "search query:" in line.lower():
